@@ -1,0 +1,12 @@
+server:
+  port: 9999
+
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://192.168.31.61:5432/postgres
+    username: postgres
+    password: 1qazx,./
+    driverClassName: org.postgresql.Driver
+mybatis:
+  type-handlers-package: zsh.demos.postgres.mybatis.typehandler
